@@ -11,6 +11,6 @@ export const getTask = (id) => taskAPI.get(`/${id}/`)
 
 export const createTask = (task) => taskAPI.post('/', task)
 
-export const deleteTask = (id) => taskAPI.delete(`/${id}`)
+export const deleteTask = (id) => taskAPI.delete(`/${id}/`)
 
 export const updateTask = (id, task) =>taskAPI.put(`/${id}/`, task)
