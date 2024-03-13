@@ -139,6 +139,9 @@ if not DEBUG:
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = ['https://api.render.com',
+                        "https://api.render.com",
+                        "deploy/srv-cnp1nmq1hbls739thtr0",
+                        "https://api.render.com/*",
                         'http://localhost:5173',
                         'http://127.0.0.1:8000',
                         'http://localhost:8000']
